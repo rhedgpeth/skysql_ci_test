@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "node"
+addons:
+  mariadb: 10.4
+before_install:
+  - sudo mariadb --host sky0001355.mdb0001390.db.skysql.net --port 5001 --user DB00001517 -p7jyv32?v3r65Jw92D64kq --ssl-ca skysql_chain.pem < sql/create.sql
+after_failure:
+  - sudo mariadb --host sky0001355.mdb0001390.db.skysql.net --port 5001 --user DB00001517 -p7jyv32?v3r65Jw92D64kq --ssl-ca skysql_chain.pem < sql/rollback.sql
