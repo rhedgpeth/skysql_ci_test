@@ -1,0 +1,19 @@
+{
+  "name": "ci_test",
+  "version": "1.0.0",
+  "description": "Simple Node.js, MariaDB SkySQL, and Travis CI demo.",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhedgpeth/ci_test.git"
+  },
+  "author": "Rob Hedgpeth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rhedgpeth/ci_test/issues"
+  },
+  "homepage": "https://github.com/rhedgpeth/ci_test#readme"
+}
