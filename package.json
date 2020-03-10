@@ -2,7 +2,7 @@
   "name": "skysql_ci_test",
   "version": "1.0.0",
   "description": "Simple Node.js, MariaDB SkySQL, and Travis CI demo.",
-  "main": "hello.js",
+  "main": "hello1.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rhedgpeth/skysql_ci_test.git"
